@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Open Sea Clone</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-nav-left">
+          <div class="navbar-brand">
+            <img src="images/opensea-pride.svg" alt="Open Sea logo" />
+            <h2>OpenSea</h2>
+          </div>
+        </div>
+
+        <div class="navbar-nav-right">
+          <div class="navbar-search-bar">
+            <span class="material-icons md-24">search</span>
+            <input
+              class="search-bar"
+              type="text"
+              placeholder="Search items,collections,and accounts"
+            />
+          </div>
+          <div class="navbar-items">
+            <ul>
+              <li>
+                <a href="#">Explore</a>
+              </li>
+              <li>
+                <a href="#">Stats</a>
+              </li>
+              <li>
+                <a href="#">Resources</a>
+              </li>
+              <li>
+                <a href="#">Create</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-nav-end">
+            <a href="#"
+              ><span class="material-icons nav-icon">account_circle</span></a
+            >
+            <a href="#"
+              ><span class="material-icons nav-icon"
+                >account_balance_wallet</span
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Hamburger Menu -->
+      <button type="button" class="hamburger" id="menu-btn">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </nav>
+    <section class="section-1">
+      <div class="heading-container">
+        <div class="heading">
+          <h1>Discover, collect, and sell extraordinary NFTs</h1>
+        </div>
+        <div class="sub-heading">
+          <h5>OpenSea is the world's first and largest NFT marketplace</h5>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-dark">Explore</button>
+          <button class="btn btn-light">Create</button>
+        </div>
+        <div class="learn-more">
+          <span class="material-icons play-circle">play_circle_filled</span>
+          <p>Learn more about OpenSea</p>
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="images/section.png" class="section-1-img" alt="nft" />
+        <div class="main-nft-info">
+          <span>
+            <img src="images/avatar.png" alt="avatar" class="avator-img" />
+            <div>
+              <h5>Periheral Illusion</h5>
+              <h5>WordsOfWomen</h5>
+            </div>
+          </span>
+          <span class="material-icons"> info </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner-container">
+        <h3>Solana is in beta in OpenSea</h3>
+        <button class="btn btn-dark">Explore</button>
+      </div>
+    </section>
+
+    <div class="slide-container swiper">
+      <!-- Slider main container -->
+      <div class="slide-content">
+        <!-- Additional required wrapper -->
+        <div class="card-wrapper swiper-wrapper">
+          <!-- Slides -->
+          <div class="card swiper-slide">
+            <img src="images/blue-promocard.jpg" class="card-img" />
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/lacoste-promocard.jpg" class="card-img" />
+          </div>
+
+          <div class="card swiper-slide">
+            <img src="images/operators-promocard.jpg" class="card-img" />
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/greenworld-promocard.jpg" class="card-img" />
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/cryptoverse-promocard.jpg" class="card-img" />
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/shadesofblue-promocard.jpg" class="card-img" />
+          </div>
+          <div class="card swiper-slide">
+            <img
+              src="images/embracemaximalism-promocard.jpg"
+              class="card-img"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <!-- create and sell -->
+    <div class="create-sell-container">
+      <h2>Create and Sell your NFTs</h2>
+      <div class="create-sell-content">
+        <div class="steps">
+          <img src="images/wallet.svg" alt="wallet" />
+          <h4>Set up your wallet</h4>
+          <p>
+            Once you’ve set up your wallet of choice, connect it to OpenSea by
+            clicking the wallet icon in the top right corner. Learn about the
+            wallets we support.
+          </p>
+        </div>
+        <div class="steps">
+          <img src="images/collection.svg" alt="wallet" />
+          <h4>Create your collection</h4>
+          <p>
+            Click My Collections and set up your collection. Add social links, a
+            description, profile & banner images, and set a secondary sales fee.
+          </p>
+        </div>
+        <div class="steps">
+          <img src="images/nft.svg" alt="wallet" />
+          <h4>Add your NFTs</h4>
+          <p>
+            Upload your work (image, video, audio, or 3D art), add a title and
+            description, and customize your NFTs with properties, stats, and
+            unlockable content.
+          </p>
+        </div>
+        <div class="steps">
+          <img src="images/sale.svg" alt="wallet" />
+          <h4>List them for sale</h4>
+          <p>
+            Choose between auctions, fixed-price listings, and declining-price
+            listings. You choose how you want to sell your NFTs, and we help you
+            sell them!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="getting-started">
+      <h2>Resources for getting started</h2>
+      <div class="resources-content">
+        <div class="resources-card">
+          <img src="images/meta-mask.png" alt="metamask" />
+          <div class="card-caption">
+            <h4>How to Easily Setup a MetaMask Wallet</h4>
+          </div>
+        </div>
+        <div class="resources-card">
+          <img src="images/eth-connect.png" alt="metamask" />
+          <div class="card-caption">
+            <h4>How to Easily Setup a MetaMask Wallet</h4>
+          </div>
+        </div>
+        <div class="resources-card">
+          <img src="images/nft-find.png" alt="metamask" />
+          <div class="card-caption">
+            <h4>How to Easily Setup a MetaMask Wallet</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="browse-category">
+      <h2>Browse by category</h2>
+      <div class="browse-category-content">
+        <div class="browse-category-card">
+          <img src="images/art.png" alt="metamask" />
+
+          <h4>ART</h4>
+        </div>
+
+        <div class="browse-category-card">
+          <img src="images/collectibles.png" alt="metamask" />
+
+          <h4>Collectibles</h4>
+        </div>
+
+        <div class="browse-category-card">
+          <img src="images/domain-names.png" alt="metamask" />
+          <h4>Domain Names</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/music.png" alt="metamask" />
+          <h4>Music</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/photography-category.png" alt="metamask" />
+          <h4>Photography</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/sports.png" alt="metamask" />
+          <h4>Sports</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/trading-cards.png" alt="metamask" />
+          <h4>Trading Cards</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/utility.png" alt="metamask" />
+          <h4>Utility</h4>
+        </div>
+        <div class="browse-category-card">
+          <img src="images/virtual-worlds.png" alt="metamask" />
+
+          <h4>Virtual Worlds</h4>
+        </div>
+      </div>
+    </div>
+
+    <section class="video-container">
+      <div class="video-heading">
+        <h2>Meet OpenSea</h2>
+        <p>The NFT marketplace with everything for everyone</p>
+      </div>
+      <div class="video-content">
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"
+        >
+        </iframe>
+      </div>
+      <div class="explore-btn">
+        <button class="btn-large btn-dark">Explore the marketplace</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="sign-up">
+        <h3>Stay in the loop</h3>
+        <p>
+          Join our mailing list to stay in the loop with our newest feature<br />
+          releases, NFT drops, and tips and tricks for navigating OpenSea.
+        </p>
+        <span>
+          <input
+            type="text"
+            placeholder="Your email address"
+            class="email-input"
+          />
+          <button class="sign-up-btn">Sign Up</button>
+        </span>
+      </div>
+      <div class="join-community">
+        <h3>Join the community</h3>
+        <div class="social-icons">
+          <img
+            src="images/icons8-whatsapp.svg"
+            alt="facebook"
+            class="social-icon"
+          />
+          <img
+            src="images/icons8-instagram.svg"
+            alt="instagram"
+            class="social-icon"
+          />
+          <img
+            src="images/icons8-youtube-logo.svg"
+            alt="youtube"
+            class="social-icon"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
